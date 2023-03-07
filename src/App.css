@@ -1,0 +1,19 @@
+/* .App {
+  text-align: center;
+} */
+
+#comp{
+  margin-top: 10px;
+}
+
+div {
+  border: 2px solid rgb(15, 6, 23);
+  
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+body{
+  justify-content: center;
+  align-items: center;
+}
