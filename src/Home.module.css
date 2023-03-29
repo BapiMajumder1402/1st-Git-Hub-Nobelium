@@ -1,0 +1,19 @@
+
+.main{
+    display: flex;
+}
+.bg{
+    height: 100vh;
+    
+    
+}
+.text {
+    text-align: left;
+    padding: 100px;
+
+}
+.l{
+    color: rgb(197, 8, 197);
+    font-size: x-large;
+    margin-left: 100px;
+}

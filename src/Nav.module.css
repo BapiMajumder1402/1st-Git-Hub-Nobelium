@@ -1,0 +1,13 @@
+nav{
+    height: 50px;
+    color: #f9f7f7;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+} 
+.link{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fffefe;
+    margin-right: 30px;
+}
