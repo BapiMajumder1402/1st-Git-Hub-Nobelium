@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* background-image: linear-gradient(purple,rgb(238, 48, 238)); */
+    background-color: #060047;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+    width: 400px;
+    background-color: #B3005E;
+    border-radius: 15px;
+    /* box-shadow: 2px 2px 10px 1px rgb(102, 3, 102); */
+    box-shadow: 2px 2px 10px 1px #333;  
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+  }
+  .heading_txt{
+    border-left: 1px solid #fafcfc;
+    border-right: 1px solid #fafcfc;
+    color:#fefcfd;
+    /* color:#276272; */
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;  
+    text-transform: uppercase;
+  }
+  .question{
+    color: aliceblue;
+    margin:8px;
+    box-shadow: 0px 0px 10px 1px #fafcfc;
+    border-radius: 15px;
+    padding:5px;
+    font-size: large;
+    font-weight: 700;
+    min-width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .question_number{
+    margin-right: 5px;
+  }
+  .option_container{
+    display: flex;
+    flex-direction: column;
+    margin:6px 4px;    
+    width: 100%;
+    padding: 10px;
+  }
+
+  .option_btn{
+    box-shadow: 0px 0px 4px 1px rgb(128, 123, 123);
+    padding: 5px;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    transition: 0.3s;
+    margin: 5px;
+    min-height: 30px;
+    background-color: white;
+  }
+  
+  .checked{
+    background-color: #E90064;
+    color:white;
+    box-shadow: 3px 3px 4px 1px rgb(78, 69, 78);
+  }
+  .option_btn:hover{
+    background-color:#FF5F9E;
+    color:white;
+  }
+  .next_button{
+    padding:10px;
+    border:none;
+    background-color:#FF5F9E ;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.2s;
+    width:100px;
+    position: absolute;
+    bottom: 15px;
+  }
+  .next_button:active{
+    box-shadow:none;    
+  }
+  .show_score{
+    position: absolute;
+    top:30%;
+    font-size: 40px;
+    text-align: center;  
+  }
