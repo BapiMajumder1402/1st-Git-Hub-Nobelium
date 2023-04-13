@@ -1,0 +1,34 @@
+.main{
+    
+    width: 100%;
+  }
+.right{
+    
+    font-weight: 600;
+    font-size: larger;
+    padding: 20px;
+    width: 100%;
+    background: yellow;
+}
+  .h{
+    background-color: red;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 2px solid rgb(74, 57, 203);
+  }
+  .left{
+    color: rgb(13, 14, 11);
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(103, 182, 247);
+  }
+  .ld{
+    padding: 10px;
+    color: rgb(11, 10, 10);
+
+    font-weight: 600;
+    border-bottom: 2px dotted rgb(9, 6, 3);
+  }
+  .stick{
+    position: sticky;
+  }
